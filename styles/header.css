@@ -1,0 +1,129 @@
+:root{
+    --darkPurple: #24053e;
+    --verdeAgua: #44ffa1;
+    --roxoCinza: #584D62;
+    --brancoFantasma: #FCF8FF;
+    --branco: #ffffff;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url("../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("../assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+}
+
+header {
+    background-color: var(--darkPurple);
+    padding: 0;
+    width: 100%;
+    height: 730px;
+    border-bottom-left-radius: 100% 2%;
+    border-bottom-right-radius: 10% 2%;
+}
+
+header:after{
+    content: '';
+    position: absolute;
+    bottom: -45px; 
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background-color:#24053E;  
+    border-radius: 30%;
+}
+
+.logo-acess-box {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4% 16.5% 0;
+}
+.logo-acess-box p {
+    color: white;
+    width: 140px;
+    height: 35px;
+    border-bottom: 3px solid var(--verdeAgua);
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: bold;
+    line-height: 32px;
+    /* letter-spacing: 1.1px; */
+    text-align: center;
+}
+
+/* ajustar aqui para criar a imagem de celular */
+header #logo-principal {
+    width: 96px;
+    height: 25px;
+}
+
+.title-learn-button {
+    width: 63%;
+    height: 30%;
+    margin: 146px auto 326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.title-learn-button h1 {
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px; 
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.line{
+    width: 17%;
+    border-bottom: 4px solid var(--verdeAgua);
+    position: absolute;
+    bottom: 57%;
+    left: 44.8%;
+}
+.button-learn-more{
+    text-decoration: none;
+    color: var(--darkPurple);
+    background-color: var(--verdeAgua);
+    padding: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.telemovel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+.telemovel img{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top:80%;
+    left: 30%;
+    /* adicionar com o Luís */
+    z-index: 1000;
+    max-width: 100%;
+}
+.item-one{
+    position: relative;
+}
+.item-one img{
+    position: absolute;
+    bottom: 45vh;
+    left: -20vh;
+}
+.item-two{
+    position: relative;
+}
+.item-two img{
+    position: absolute;
+    bottom: 45vh;
+    right: -5vh;
+}
